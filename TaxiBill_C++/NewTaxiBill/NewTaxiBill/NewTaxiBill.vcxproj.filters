@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\RulesRecord">
+      <UniqueIdentifier>{8ffb9f40-e8a0-4b56-bed9-8906660f1caf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\RulesRecord">
+      <UniqueIdentifier>{10e58cfb-e2a5-41ab-8ac7-e81f993cd0a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\RelativeClass">
+      <UniqueIdentifier>{9fb2825f-696f-40b3-a061-5387de66b263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\RelativeClass">
+      <UniqueIdentifier>{e2fcb9fd-2e69-4f13-a153-351cd78f0ad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\RuleClass">
+      <UniqueIdentifier>{25da07ac-064c-4ac6-9d19-29fea082d368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\RuleClass">
+      <UniqueIdentifier>{2cfd071f-c1ae-4c63-81a6-76ae0b706638}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\BillClass">
+      <UniqueIdentifier>{ed2e6b69-55dc-405b-99f3-87309bbc9eb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\BillClass">
+      <UniqueIdentifier>{327b9e31-0b1d-4223-9a77-eef8e0de24b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Factory">
+      <UniqueIdentifier>{4c50812a-e314-4ebf-b77b-06af455c89f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Factory">
+      <UniqueIdentifier>{633420bf-a3b6-4f7a-b1b8-3361fbf31641}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RulesInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GetInformation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Clock.h">
+      <Filter>头文件\RelativeClass</Filter>
+    </ClInclude>
+    <ClInclude Include="FeeRule.h">
+      <Filter>头文件\RelativeClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Taxi.h">
+      <Filter>头文件\RelativeClass</Filter>
+    </ClInclude>
+    <ClInclude Include="InnerFeeRule.h">
+      <Filter>头文件\RuleClass</Filter>
+    </ClInclude>
+    <ClInclude Include="OuterFeeRule.h">
+      <Filter>头文件\RuleClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Bill.h">
+      <Filter>头文件\RelativeClass</Filter>
+    </ClInclude>
+    <ClInclude Include="DaytimeBill.h">
+      <Filter>头文件\BillClass</Filter>
+    </ClInclude>
+    <ClInclude Include="NightBill.h">
+      <Filter>头文件\BillClass</Filter>
+    </ClInclude>
+    <ClInclude Include="BillFactory.h">
+      <Filter>头文件\Factory</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RulesInfo.cpp">
+      <Filter>源文件\RulesRecord</Filter>
+    </ClCompile>
+    <ClCompile Include="GetInformation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Clock.cpp">
+      <Filter>源文件\RelativeClass</Filter>
+    </ClCompile>
+    <ClCompile Include="FeeRule.cpp">
+      <Filter>源文件\RelativeClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Taxi.cpp">
+      <Filter>源文件\RelativeClass</Filter>
+    </ClCompile>
+    <ClCompile Include="InnerFeeRule.cpp">
+      <Filter>源文件\RuleClass</Filter>
+    </ClCompile>
+    <ClCompile Include="OuterFeeRule.cpp">
+      <Filter>源文件\RuleClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Bill.cpp">
+      <Filter>源文件\RelativeClass</Filter>
+    </ClCompile>
+    <ClCompile Include="DaytimeBill.cpp">
+      <Filter>源文件\BillClass</Filter>
+    </ClCompile>
+    <ClCompile Include="NightBill.cpp">
+      <Filter>源文件\BillClass</Filter>
+    </ClCompile>
+    <ClCompile Include="BillFactory.cpp">
+      <Filter>源文件\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
